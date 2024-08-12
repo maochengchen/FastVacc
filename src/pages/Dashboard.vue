@@ -1,6 +1,10 @@
 <template>
   <div class="content">
     <div class="md-layout">
+      <div>
+        <AxiosButton></AxiosButton>
+        
+      </div>
       <div
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-33"
       >
@@ -11,7 +15,7 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">Daily</h4>
             <p class="category">
               <span class="text-success"
                 ><i class="fas fa-long-arrow-alt-up"></i> 55%
@@ -206,6 +210,7 @@ import {
   NavTabsCard,
   NavTabsTable,
   OrderedTable,
+  AxiosButton
 } from "@/components";
 
 export default {
@@ -215,6 +220,7 @@ export default {
     NavTabsCard,
     NavTabsTable,
     OrderedTable,
+    AxiosButton
   },
   data() {
     return {

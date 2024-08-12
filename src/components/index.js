@@ -8,6 +8,9 @@ import NavTabsTable from "./Tables/NavTabsTable.vue";
 import OrderedTable from "./Tables/OrderedTable.vue";
 import SimpleTable from "./Tables/SimpleTable.vue";
 
+//button
+import AxiosButton from "./Buttons/AxiosTest.vue";
+
 export {
   ChartCard,
   NavTabsCard,
@@ -15,4 +18,5 @@ export {
   NavTabsTable,
   OrderedTable,
   SimpleTable,
+  AxiosButton,
 };
